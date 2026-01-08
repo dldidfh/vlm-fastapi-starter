@@ -1,9 +1,10 @@
+numpy==1.25.0
 fastapi
 uvicorn
-torch
-transformers
-pillow
+torch==2.4.0
+transformers==4.46.2
+pillow==10.3.0
 pydantic
 python-multipart
 accelerate
-flash_attn
+# flash-attn==2.7.0.post2 --no-build-isolation
