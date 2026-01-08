@@ -74,7 +74,6 @@ class OvisModelServer:
             multimodal_max_length=multimodal_max_length,
             trust_remote_code=True,
             device_map=device,
-            attn_implementation="sdpa"
         )
         self.model.eval()
         self.text_tokenizer = self.model.get_text_tokenizer()
